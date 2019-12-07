@@ -9,6 +9,10 @@ Look at how each one if different.
 Yes, that's the point of this lab.
 
 How many times do you have to run ThreadTwoHashMapBroken before you get
-an exception? WHY does it continue and exit with a 0 even after
-the exception gets thrown?
+an exception? Just once.
 
+
+WHY does it continue and exit with a 0 even after
+the exception gets thrown? 
+Because the Interrupted Exception thrown by the doDBProcessing method is handled??
+Thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity.
